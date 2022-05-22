@@ -14,6 +14,7 @@
 		4965EF2D283A00C3000D9337 /* SwiftUITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4965EF2C283A00C3000D9337 /* SwiftUITestTests.swift */; };
 		4965EF37283A00C3000D9337 /* SwiftUITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4965EF36283A00C3000D9337 /* SwiftUITestUITests.swift */; };
 		4965EF39283A00C3000D9337 /* SwiftUITestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4965EF38283A00C3000D9337 /* SwiftUITestUITestsLaunchTests.swift */; };
+		4965EF46283A1261000D9337 /* ContentTestsCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4965EF45283A1261000D9337 /* ContentTestsCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4965EF32283A00C3000D9337 /* SwiftUITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4965EF36283A00C3000D9337 /* SwiftUITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestUITests.swift; sourceTree = "<group>"; };
 		4965EF38283A00C3000D9337 /* SwiftUITestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4965EF45283A1261000D9337 /* ContentTestsCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTestsCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				4965EF2C283A00C3000D9337 /* SwiftUITestTests.swift */,
+				4965EF45283A1261000D9337 /* ContentTestsCase.swift */,
 			);
 			path = SwiftUITestTests;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4965EF2D283A00C3000D9337 /* SwiftUITestTests.swift in Sources */,
+				4965EF46283A1261000D9337 /* ContentTestsCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
